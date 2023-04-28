@@ -1,13 +1,18 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+<<<<<<< HEAD
             {{ __('Contact') }}
+=======
+            {{ __('Dashboard') }}
+>>>>>>> NguyenDu
         </h2>
     </x-slot>
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+<<<<<<< HEAD
                 <div class="p-6 text-gray-900 dark:text-gray-100" style="margin-left: 400px">
                     <image src="https://scontent.xx.fbcdn.net/v/t1.15752-9/341480903_888936875504027_4424207372074529810_n.png?stp=dst-png_s403x403&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=iaQgNkXZJBgAX8Xbwnq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTiJpaSlzEpXwiRCmbJUHsi3jJ69hYr4kcl2V8cwpOLcw&oe=6466FFC1" width="250px">
                 </div>
@@ -46,11 +51,16 @@
                   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <p><i class="fa fa-phone me-3 text-secondary"></i> + 69 69 69 69</p>
                   </div>
+=======
+                <div class="p-6 text-gray-900 dark:text-gray-100">
+                    {{ __("You're logged in!") }}
+>>>>>>> NguyenDu
                 </div>
             </div>
         </div>
     </div>
 </x-app-layout>
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -64,3 +74,5 @@
 
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+=======
+>>>>>>> NguyenDu

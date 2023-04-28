@@ -5,7 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+<<<<<<< HEAD
         <title>{{ config('app.name', 'HungNP') }}</title>
+=======
+        <title>{{ config('app.name', 'Laravel') }}</title>
+>>>>>>> NguyenDu
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -15,6 +19,10 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
+<<<<<<< HEAD
+=======
+        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+>>>>>>> NguyenDu
             @include('layouts.navigation')
 
             <!-- Page Heading -->
@@ -30,5 +38,9 @@
             <main>
                 {{ $slot }}
             </main>
+<<<<<<< HEAD
+=======
+        </div>
+>>>>>>> NguyenDu
     </body>
 </html>
